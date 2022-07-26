@@ -6,6 +6,8 @@
 
 - Ubuntu 20.04
 - Python 3.8
+- g++ 9.4.0
+- cmake 3.16.3
 - rs_driver (v1.5.4 or higher)
 
 The wrapper works correctly on Ubunt20.04 and RS-LiDAR-M1 data. But, this does not mean "perfect"...
