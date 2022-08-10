@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 
 def pointcloud_callback(
-    seq: int, height: int, width: int, timestamp: float, pcd_data: Sequence[float]
+    seq: int, height: int, width: int, timestamp: float, pcd_data: Sequence[Sequence[float]]
 ):
     """Pointcloud callback
 
